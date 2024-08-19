@@ -73,7 +73,7 @@
     "prepublishOnly": "yarn install && yarn build && yarn syntax",
     "prelint": "yarn syntax",
     "lint": "eslint --fix src/*.ts test/*.ts",
-    "pretest": "yarn install && yarn prepublishOnly && yarn syntax:test",
+    "pretest": "yarn install && yarn prepublishOnly && yarn syntax",
     "test": "nyc ava -c 1",
     "syntax": "tsc",
     "test:live": "podman  build --ulimit nofile=1048576:1048576 -f test/Dockerfile ."
