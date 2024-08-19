@@ -9,8 +9,6 @@ test/routes/
 Makefile
 routes/
 build/
-esl.cjs
-esl.mjs
 .nyc_output/
 test/*.mjs
 !test/readme.mjs
